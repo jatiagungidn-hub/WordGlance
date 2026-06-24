@@ -17,6 +17,10 @@ public class Word {
 
     @Override
     public String toString() {
+        return word + "=" + meaning;
+    }
+
+    public String toFileString() {
         return word + "|" + meaning;
     }
 }
